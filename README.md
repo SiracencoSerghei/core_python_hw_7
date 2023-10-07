@@ -10,8 +10,15 @@
 
 У clean_folder/clean_folder/clean.py треба помістити все, що ми зробили на попередніх домашніх завданнях по розбору папки. Ваше основнє завдання написати clean_folder/setup.py, щоб вбудований інструментарій Python міг встановити цей пакет та операційна система могла використати цей пакет як консольну команду.
 
-# Выполните следующую команду, чтобы упаковать ваш пакет:
+# Run the following command to package your package:
 
 bash
 
 python setup.py sdist bdist_wheel
+
+# Install package locally: You can install package locally for testing:
+
+bash
+
+pip install .
+

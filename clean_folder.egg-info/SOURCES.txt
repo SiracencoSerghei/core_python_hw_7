@@ -1,7 +1,7 @@
 README.md
 pyproject.toml
 setup.py
-clean_folder/init.py
+clean_folder/__init__.py
 clean_folder/normalize.py
 clean_folder/process_directory.py
 clean_folder/process_file.py
@@ -11,3 +11,15 @@ clean_folder.egg-info/SOURCES.txt
 clean_folder.egg-info/dependency_links.txt
 clean_folder.egg-info/entry_points.txt
 clean_folder.egg-info/top_level.txt
+env/bin/rst2html.py
+env/bin/rst2html4.py
+env/bin/rst2html5.py
+env/bin/rst2latex.py
+env/bin/rst2man.py
+env/bin/rst2odt.py
+env/bin/rst2odt_prepstyles.py
+env/bin/rst2pseudoxml.py
+env/bin/rst2s5.py
+env/bin/rst2xetex.py
+env/bin/rst2xml.py
+env/bin/rstpep2html.py

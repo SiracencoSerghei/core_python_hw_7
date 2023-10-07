@@ -1,3 +1,4 @@
+""" setup module """
 from setuptools import setup, find_namespace_packages
 
 setup(
@@ -8,6 +9,7 @@ setup(
     author='Siracenco Serghei',
     author_email='siracencoserghei@gmail.com',
     packages=find_namespace_packages(),
-    long_description=open('README.md').read(),
-     entry_points={'console_scripts': ['clean-folder=clean_folder.sort_dir:sort_folder']}
+    long_description=open('README.md', "r", encoding="utf-8").read(),
+    entry_points={'console_scripts': ['clean-folder=clean_folder.sort_dir:sort_folder']},
+    include_package_data=True
     )
