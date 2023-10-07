@@ -1,0 +1,8 @@
+[project]
+name = "clean-folder"
+version = "0.0.1"
+description = "Clean folder script"
+authors = ["Siracenco Serghei <siracencoserghei@gmail.com>"]
+homepage = "https://github.com/siracencoserghei/core_python_hw_07"
+
+[dependencies]
