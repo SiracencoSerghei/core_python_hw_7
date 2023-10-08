@@ -5,6 +5,10 @@ Summary: Clean folder script
 Home-page: https://github.com/siracencoserghei/core_python_hw_07
 Author: Siracenco Serghei
 Author-email: Siracenco Serghei <siracencoserghei@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
 
 Репозиторій для домашнього завдання до модуля 7 (Створення та встановлення власних пакетів, віртуальне оточення)
 
@@ -24,9 +28,8 @@ bash
 
 python setup.py sdist bdist_wheel
 
-# Install package locally: You can install package locally for testing:
+# Install package locally: You can install your package locally for testing:
 
 bash
 
 pip install .
-

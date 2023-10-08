@@ -20,4 +20,4 @@ python setup.py sdist bdist_wheel
 
 bash
 
-pip install.
+pip install .
