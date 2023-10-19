@@ -2,7 +2,7 @@
 
 from pathlib import Path
 import shutil
-from .normalize import normalize
+from normalize import normalize
 
 
 def process_file(file_path: Path, target_folder: Path) -> None:
