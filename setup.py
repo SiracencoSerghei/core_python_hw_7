@@ -3,7 +3,7 @@ from setuptools import setup, find_namespace_packages
 
 setup(
     name='clean_folder_sergio_09_78',
-    version='1.0',
+    version='1.0.1',
     description='Clean folder script',
     author='Siracenco Serghei',
     author_email='siracencoserghei@gmail.com',
