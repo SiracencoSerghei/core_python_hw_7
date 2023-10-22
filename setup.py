@@ -15,6 +15,6 @@ setup(
         "Operating System :: OS Independent"],
     packages=find_namespace_packages(),
     long_description=open('README.md', "r", encoding="utf-8").read(),
-    entry_points={'console_scripts': ['clean-folder=clean_folder.sort_dir:sort_folder']},
+    entry_points={'console_scripts': ['clean-folder=clean_folder.main:main']},
     include_package_data=True
     )
